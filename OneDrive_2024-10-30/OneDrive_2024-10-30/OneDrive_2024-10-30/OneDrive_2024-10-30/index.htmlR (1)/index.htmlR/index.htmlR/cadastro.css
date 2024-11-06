@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+  }
+  
+ 
+  
+  header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #2600ff;
+  }
+  
+  /* Formulário de Cadastro */
+  .cadastro-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000;
+    color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .cadastro-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cadastro-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+  }
+  
+  .cadastro-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+  }
+  
+  .cadastro-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cadastro-container button:hover {
+    background-color: #2600ff;
+  }
+  
+  .cadastro-container p {
+    margin-top: 15px;
+  }
+  
+  .cadastro-container p a {
+    color: #0066ff;
+    text-decoration: none;
+  }
+  
+  .cadastro-container p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: #000000;
+    text-align: center;
+    margin-top: auto; /* Para manter o footer no final da página */
+  }
+  
+  footer .social a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .social a:hover {
+    color: #0059ff;
+  }
+  

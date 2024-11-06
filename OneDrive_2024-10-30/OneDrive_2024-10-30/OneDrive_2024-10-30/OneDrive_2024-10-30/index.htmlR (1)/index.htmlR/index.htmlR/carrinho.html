@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho - RC Turbinas</title>
+  <link rel="stylesheet" href="carrinho.css">
+  <link rel="shortcut icon" href="./apple-touch-icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Cabeçalho com Menu de Navegação -->
+  <header>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="produto.html">Produtos</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="sobre.html">Sobre Nós</a>
+      
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal - Carrinho de Compras -->
+  <main>
+    <section class="carrinho-container">
+      <h2>Seu Carrinho de Compras</h2>
+      <table class="carrinho-tabela">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço Unitário</th>
+            <th>Subtotal</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="carrinho-itens">
+          <!-- Os itens serão inseridos aqui via JavaScript -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" class="total-label">Total:</td>
+            <td colspan="2" class="total-value" id="total-carrinho">R$ 0,000</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Nome do Negócio - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="carrinho.js"></script>
+</body>
+</html>

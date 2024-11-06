@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Define a fonte geral */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    padding: 20px; /* Espaçamento interno */
+  }
+  h2 {
+    color: #003cff;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #020202;
+  }
+  
+  header .logo {
+    width: 150px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #0026ff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #0004ff;
+  }
+  
+  /* Produtos */
+  .produtos {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .produtos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3, .card span {
+    color: #007bff;
+  }
+
+  .card p{
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+  }
+  
+  footer .social a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .social a:hover {
+    color: #0213ff;
+  }
+  

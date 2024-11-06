@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - RC Turbinas</title>
+  <link rel="stylesheet" href="produto.css">
+  <link rel="shortcut icon" href="./apple-touch-icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Cabeçalho com Menu de Navegação -->
+  <header>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="produto.html">Produtos</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="index.html">Login</a>
+    </nav>
+  </header>
+
+  
+
+
+  <!-- Conteúdo Principal - Lista de Produtos -->
+  <main>
+    <section class="produtos-container">
+      <h2>Nossas Turbinas</h2>
+      <div class="produtos-lista">
+        <!-- Card do Produto -->
+        <div class="produto-card" data-id="1" data-nome="Produto 1" data-preco="4000">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_734604-MLB70477996589_072023-O.webp" alt="Turbina 1">
+          <h3>Turbina</h3>
+          <p>Turbo Audi e volkswagen</p>
+          <span>R$ 4.000,00</span>
+          <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="produto-card" data-id="2" data-nome="Produto 2" data-preco="2560">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_604531-MLA72411016450_102023-O.webp" alt="Turbina 2">
+          <h3>Turbina</h3>
+          <p>Turbo Ford</p>
+          <span>R$ 2.560,00</span>
+          <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+        </div>
+        
+        <!-- Adicione mais produtos conforme necessário -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Nome do Negócio - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="produto.js"></script>
+</body>
+</html>

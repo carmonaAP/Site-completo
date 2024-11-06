@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  header .logo {
+    width: 150px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #003cff;
+  }
+  
+  /* Carrinho */
+  .carrinho-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carrinho-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #002fff;
+  }
+  
+  .carrinho-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .carrinho-tabela th, .carrinho-tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .carrinho-tabela th {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  td{
+    color: #ddd;
+  }
+  
+  .carrinho-tabela td button {
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrinho-tabela td button:hover {
+    background-color: #ff6666;
+  }
+  
+  .total-label {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .total-value  {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .checkout-btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #ffdd33;
+  }
+  
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  footer .social a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .social a:hover {
+    color: #fff;
+  }
+  

@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414;
+  }
+  
+  header .logo {
+    width: 150px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #1100ff;
+  }
+  
+  /* Produtos */
+  .produtos-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .produtos-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .produtos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .produto-card {
+    width: 300px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 252, 252, 0.1);
+  }
+  h2{
+    color: #1100ff;
+  }
+  
+  .produto-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .produto-card h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    color: #fff;
+  }
+  
+  .produto-card p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .produto-card span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .produto-card button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .produto-card button:hover {
+    background-color: #1100ff;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    margin-top: auto; /* Para manter o footer no final da página */
+  }
+  
+  footer .social a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .social a:hover {
+    color: #fff;
+  }
+
+  

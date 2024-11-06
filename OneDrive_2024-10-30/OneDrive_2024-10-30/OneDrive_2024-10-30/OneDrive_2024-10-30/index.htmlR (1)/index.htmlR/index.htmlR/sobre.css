@@ -1,0 +1,104 @@
+body {
+    background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o Header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    background-color: #171afd;
+}
+
+/* Estilos para o Main */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sobre-nos h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1900ff;
+}
+
+.sobre-nos p {
+    margin-bottom: 15px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.sobre-nos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sobre-nos ul li {
+    padding: 8px;
+    color: #ffffff;
+    border-bottom: 1px solid #1900ff;
+}
+h2{
+    color: #171afd;
+}
+
+/* Estilos para o Footer */
+footer {
+    background-color: #444444;
+    color: #050505;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .redes-sociais a {
+    color: #002fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer .redes-sociais a:hover {
+    color: #ddd;
+}
+
+
+
